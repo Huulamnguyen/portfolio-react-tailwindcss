@@ -22,7 +22,7 @@ function Footer(){
                     </a>
                 </div>
             </div>
-            <div className="text-center p-3">
+            <div className="font-primary text-center p-3">
                 © 2022 Copyright:
                 <a className="text-whitehite mx-2" href="https://tailwind-elements.com/">Liam Nguyen</a>
             </div>
