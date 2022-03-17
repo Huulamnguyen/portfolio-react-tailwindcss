@@ -1,5 +1,6 @@
 import React from 'react';
 import HeroImage from '../img/me-hero-image.jpg';
+import {CheckCircleIcon} from '@heroicons/react/solid'
 
 function Hero (){
     return (
@@ -14,14 +15,15 @@ function Hero (){
                 </h1>
                 <p className="font-primary mt-2 text-gray-600 sm:mt-4 sm:text-xl">
                     <ul>
-                        <li>I'm a full-stack software engineer </li>
-                        <li>Located in Long Island, New York. </li>
-                        <li>Tech Blog, Traveling, and Photography</li>
+                        <li> <CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>I'm a full-stack software engineer </li>
+                        <li> <CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>Located in Long Island, New York. </li>
+                        <li> <CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>Tech Blog, Traveling, and Photography</li>
                     </ul>
+                    <br></br>
                     The technologies that I use:
                     <ul>
-                        <li>HTML/CSS, JavaScript, React/Redux</li>
-                        <li>Ruby, Rails, Python, Flask, PostgresQL</li>
+                        <li><CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>HTML/CSS, JavaScript, React/Redux</li>
+                        <li><CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>Ruby, Rails, Python, Flask, PostgresQL</li>
                     </ul>
                 </p>
                 <div className="mt-4 space-x-1 sm:mt-6">

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 import { Transition } from "@headlessui/react";
 
 function NavBar() {
@@ -14,11 +15,11 @@ function NavBar() {
                             </div>
                             <div className="hidden md:block">
                                 <div className="ml-10 flex items-baseline space-x-4">
-                                    <a href="#" className="nav-item">Home</a>
-                                    <a href="#" className="nav-item">Blogs</a>
-                                    <a href="#" className="nav-item">Projects</a>
-                                    <a href="#" className="nav-item">About</a>
-                                    <a href="#" className="nav-item">Contact</a>
+                                    <Link to="/" className="nav-item">Home</Link>
+                                    <Link to="/blogs" className="nav-item">Blogs</Link>
+                                    <Link to="/projects" className="nav-item">Projects</Link>
+                                    <Link to="/about" className="nav-item">About</Link>
+                                    <Link to="/contact" className="nav-item">Contact</Link>
                                 </div>  
                             </div>
                         </div>
@@ -80,11 +81,11 @@ function NavBar() {
                     {(ref) => (
                         <div className="md:hidden" id="mobile-menu">
                             <div ref={ref} className="text-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                                <a href="#" className="nav-item block ">Home</a>
-                                <a href="#" className="nav-item block">Blogs</a>
-                                <a href="#" className="nav-item block">Projects</a>
-                                <a href="#" className="nav-item block">About</a>
-                                <a href="#" className="nav-item block">Contact</a>
+                                <Link to="/" className="nav-item block ">Home</Link>
+                                <Link to="/blogs" className="nav-item block">Blogs</Link>
+                                <Link to="/projects" className="nav-item block">Projects</Link>
+                                <Link to="/about" className="nav-item block">About</Link>
+                                <Link to="/contact" className="nav-item block">Contact</Link>
                             </div>
                         </div>
                     )}
