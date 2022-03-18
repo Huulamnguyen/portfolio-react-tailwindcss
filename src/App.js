@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+
   return (
     <div className="flex flex-col h-screen justify-between">
       <NavBar />
