@@ -47,7 +47,7 @@ const Articles = [
     {
         id: 6,
         title: "Building Sinatra API Back-end with Active Record/Ruby Part 1",
-        tags: ["Sinatra", "Rails", "Ruby", "Active Record", "API", "Back-End"],
+        tags: ["Sinatra", "Active Record", "API", "Back-End"],
         date: "February 18, 2022",
         link: "https://liamdev.medium.com/building-sinatra-api-back-end-with-active-record-ruby-3f5c762a2508",
         img: "https://images.unsplash.com/photo-1514428631868-a400b561ff44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -56,7 +56,7 @@ const Articles = [
     {
         id: 7,
         title: "Building Sinatra API Back-end with Active Record/Ruby Part 2",
-        tags: ["Sinatra", "Rails", "Ruby", "Active Record", "API", "Back-End"],
+        tags: ["Sinatra", "Active Record", "API", "Back-End"],
         date: "February 21, 2022",
         link: "https://liamdev.medium.com/building-sinatra-api-back-end-with-active-record-ruby-part-2-12b773a4361",
         img: "https://images.unsplash.com/photo-1608452964553-9b4d97b2752f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -65,7 +65,7 @@ const Articles = [
     {
         id: 8,
         title: "Building Sinatra API Back-end with Active Record/Ruby Part 3",
-        tags: ["Sinatra", "Rails", "Ruby", "Active Record", "API", "Back-End"],
+        tags: ["Sinatra", "Active Record", "API", "Back-End"],
         date: "February 21, 2022",
         link: "https://liamdev.medium.com/building-sinatra-api-back-end-with-active-record-ruby-part-3-4044ba8560c",
         img: "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
@@ -74,7 +74,7 @@ const Articles = [
     {
         id: 9,
         title: "Auth For My React Rails Application Including Reset Password",
-        tags: ["Rails", "Ruby", "Active Record", "API", "Back-End", "Authentication", "Authorization"],
+        tags: ["Rails", "Active Record", "API", "Back-End", "Auth"],
         date: "March 10, 2022",
         link: "https://medium.com/@liamdev/auth-for-my-react-rails-application-b87c8d0ec04c",
         img: "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
