@@ -4,7 +4,7 @@ function Footer(){
     return (
         <footer className="text-center bg-gray-800 text-white">
             <div className="container px-6 pt-6 m-auto">
-                <div className="inline-flex justify-center">
+                <div className="flex justify-center">
                     <a href="https://twitter.com/liamdev5" target="_blank" rel="noreferrer" type="button" className="hover:-translate-y-0.5 transform transition w-9 h-9 m-2">
                         <div className="icons8-twitter-circled"></div>
                     </a>
