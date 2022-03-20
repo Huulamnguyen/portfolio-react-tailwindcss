@@ -5,16 +5,16 @@ import {Link} from 'react-router-dom';
 
 function Hero (){
     return (
-        <div className="grid lg:grid-cols-2 lg:m-5 2xl:grid-cols-5">
-            <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-5 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
+        <div className="grid lg:grid-cols-2 lg:m-5 2xl:grid-cols-4">
+            <div className="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-5 lg:py-24 lg:max-w-full xl:mx-auto 2xl:col-span-2">
                 <div className="xl:max-w-xl">
                 <img className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src={HeroImage} alt="Woman work on the beach" />
-                <h1 className="mt-6 text-2xl font-bold font-primary text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+                <h1 className="mt-6 text-2xl font-bold font-primary text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-6xl">
                     Hi Everyone,
                     <br className="inline" />
                     <span className="text-[#FF725E]">I'm Liam Nguyen</span>
                 </h1>
-                <div className="font-primary mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+                <div className="font-primary mt-2 text-gray-600 sm:mt-4 sm:text-xl xl:text-3xl">
                     <ul>
                         <li> <CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>I'm a full-stack software engineer </li>
                         <li> <CheckCircleIcon className="w-7 h-7 m-1 inline text-[#FF725E]"/>Located in Long Island, New York. </li>
