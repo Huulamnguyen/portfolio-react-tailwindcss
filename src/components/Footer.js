@@ -8,7 +8,7 @@ function Footer(){
                     <a href="https://twitter.com/liamdev5" target="_blank" rel="noreferrer" type="button" className="hover:-translate-y-0.5 transform transition w-9 h-9 m-2">
                         <div className="icons8-twitter-circled"></div>
                     </a>
-                    <a href="https://www.linkedin.com/in/huulamnguyen/" target="_blank" rel="noreferrer" className="hover:-translate-y-0.5 transform transition w-9 h-9 m-2">
+                    <a href="https://www.linkedin.com/in/huulamnguyen/" target="_blank" rel="noreferrer" type="button" className="hover:-translate-y-0.5 transform transition w-9 h-9 m-2">
                         <div className="icons8-linkedin-circled"></div>
                     </a>
                     <a href="https://github.com/Huulamnguyen" target="_blank" rel="noreferrer" type="button" className="hover:-translate-y-0.5 transform transition w-9 h-9 m-2">
