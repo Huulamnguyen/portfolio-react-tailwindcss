@@ -16,7 +16,7 @@ function ArticleItem({article}){
                 </div>
                 <h5 className="text-lg font-bold mb-3">{article.title}</h5>
                 <p className="text-gray-500 mb-6">
-                    <small>Published <u>{article.date}</u> by <a href="" className="text-gray-900">LiamDev</a></small>
+                    <small>Published <u>{article.date}</u> by <a href="https://medium.com/@liamdev" className="text-gray-900">LiamDev</a></small>
                 </p>
                 <p className="text-gray-500">{article.description}</p>
         </div>
