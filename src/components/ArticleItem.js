@@ -11,8 +11,8 @@ function ArticleItem({article}){
                     </a>
                 </div>
 
-                <div className="flex space-x-1 justify-center">
-                    {article.tags.map(tag => <span class="text-xs py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-[#FF725E] text-white rounded">{tag}</span>)}
+                <div className="flex flex-wrap justify-center items-center m-4">
+                    {article.tags.map(tag => <span class="text-xs mr-2 py-1.5 px-4 text-white bg-[#FF725E] rounded-2xl">{tag}</span>)}
                 </div>
                 <h5 className="text-lg font-bold mb-3">{article.title}</h5>
                 <p className="text-gray-500 mb-6">

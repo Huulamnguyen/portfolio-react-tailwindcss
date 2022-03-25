@@ -2,10 +2,7 @@ import React from 'react';
 
 function Projects(){
     return (
-        <div>
-            Project List
-            Coming Soon
-        </div>
+        <p>Coming Soon</p>
     )
 }
 
