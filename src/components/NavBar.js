@@ -19,7 +19,7 @@ function NavBar() {
                                     <Link to="/blogs" className="nav-item">Blogs</Link>
                                     <Link to="/projects" className="nav-item">Projects</Link>
                                     <Link to="/about" className="nav-item">About</Link>
-                                    <Link to="/contact" className="nav-item">Contact</Link>
+                                    <a href="https://zj74kmyr8pt.typeform.com/to/oDP13oVh" className="nav-item">Contact</a>
                                 </div>  
                             </div>
                         </div>
@@ -85,7 +85,7 @@ function NavBar() {
                                 <Link to="/blogs" className="nav-item block">Blogs</Link>
                                 <Link to="/projects" className="nav-item block">Projects</Link>
                                 <Link to="/about" className="nav-item block">About</Link>
-                                <Link to="/contact" className="nav-item block">Contact</Link>
+                                <a href="https://zj74kmyr8pt.typeform.com/to/oDP13oVh" className="nav-item block">Contact</a>
                             </div>
                         </div>
                     )}
