@@ -7,7 +7,6 @@ import experienceImg from "../img/icons8-experience-64.png"
 function About(){
     return (
         <section className="text-gray-600 body-font">
-            
             <div className="container px-5 py-5 mx-auto flex flex-col font-primary">
                 <div className="lg:w-4/6 mx-auto">
                     <div className="rounded-lg h-64 overflow-hidden">
@@ -21,7 +20,11 @@ function About(){
                             <div className="flex flex-col items-center text-center justify-center">
                                 <h2 className="font-medium title-font m-auto text-gray-900 text-lg">Huu Lam Nguyen</h2>
                                 <div className="w-12 h-1 bg-[#FF725E] rounded mt-2 mb-4"></div>
-                                <p className="text-base">I'm a software Engineer. Being a software engineer to me is being a problem solver.</p>
+                                <p className="text-base">
+                                I'm a software Engineer. 
+                                Being a software engineer to me is being a problem solver. 
+                                Email: liamnguyen.swe@gmail.com
+                                </p>
                             </div>
                         </div>
                         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
